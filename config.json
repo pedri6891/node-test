@@ -1,0 +1,22 @@
+{
+  "super_key": "DE436C1F33C423EF60506BEFBAB00789",
+  "development": {
+    "mongoUrl": "mongodb://localhost:27017/obras-services",
+    "user": "",
+    "password": "",
+    "ws_server": "http://localhost:3008",
+    "server": {
+      "host": "http://localhost",
+      "port": "4010"
+    }
+  },
+  "production": true,
+  "server" : {
+    "host": "localhost",
+    "port": "3000",
+    "secure" : "3443"
+  },
+
+"requests_timeout_seconds": 20
+
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/nodejs
+
+const app = require('./../app')
+
+
+
+app.listen( process.env.PORT || config.development.server.port, function(){
+    console.log('Run server ok!!')
+} );
+
+
+
+
+
+
+
